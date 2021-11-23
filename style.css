@@ -149,7 +149,7 @@ p {
   padding: 40px;
   box-sizing: border-box;
 }
-@media(min-width: 280px) and (max-width: 374px){
+@media(min-width: 280px){
   body{
     margin-top: 30px;
     gap: 30px;
@@ -170,150 +170,40 @@ p {
     min-width: 280px;
   }
   .introducao{
-    justify-items: center;
+    justify-items: flex-end;
   }
   .introducao h1{
-    font-size: 1.25rem;
-    text-align: left;
+    font-size: 3rem;
+    text-align: right;
   }
   .introducao p{
-    font-size: 1rem;
-    text-align: left;
+    font-size: 1.5rem;
+    text-align: right;
   }
   .introducao::before{
     display: none;
   }
   .botao{
-    padding: 1rem 1rem;
+    text-align: center;
+    width: 7rem;
+    padding: 1.25rem 2rem;
     border-radius: 4px;
   }
   .conteudo .subtitulo{
     text-align: center;
-    font-size:2rem;
+    font-size:3rem;
   }
   p{
-    font-size: 1rem;
-  }
-  .vantagens-item{
-    gap: 10px 10px;
-    padding: 10px;
-  }
-}
-@media(min-width: 375px) and (max-width: 540px){
-  body{
-    margin-top: 30px;
-    gap: 30px;
-  }
-  .header{
-    gap: 30px;
-  }
-  .menu{
-    flex-direction: column;
-  }
-  .menu li{
-    margin: .3rem 0;
-  }
-  .conteudo{
-    grid-template-columns: 1fr;
-  }
-  .conteudo{
-    min-width: 375px;
-  }
-  .introducao{
-    justify-items: center;
-  }
-  .introducao h1{
-    font-size: 1.25rem;
-    text-align: left;
-  }
-  .introducao p{
-    font-size: 1rem;
-    text-align: left;
-  }
-  .introducao::before{
-    display: none;
-  }
-  .botao{
-    padding: 1rem 1rem;
-    border-radius: 4px;
-  }
-  .conteudo .subtitulo{
-    text-align: center;
-    font-size:2.5rem;
-  }
-  p{
-    font-size: 1rem;
-  }
-  .vantagens-item{
-    gap: 10px 10px;
-    padding: 10px;
-  }
-}
-@media(min-width: 541px) and (max-width: 767px){
-  body{
-    margin-top: 30px;
-    gap: 30px;
-  }
-  .header{
-    gap: 30px;
-  }
-  .menu li{
-    margin: .3rem 0;
-  }
-  .conteudo{
-    grid-template-columns: 1fr;
-  }
-  .conteudo{
-    min-width: 375px;
-  }
-  .introducao{
-    justify-items: center;
-  }
-  .introducao h1{
-    font-size: 1rem;
-    text-align: left;
-  }
-  .introducao p{
-    font-size: 1rem;
-    text-align: left;
-  }
-  .introducao::before{
-    display: none;
-  }
-  .botao{
-    padding: 1rem 1rem;
-    border-radius: 4px;
-  }
-  .conteudo .subtitulo{
-    text-align: center;
-    font-size:2rem;
-  }
-  p{
-    font-size: 1rem;
-  }
-  .vantagens-item{
-    gap: 10px 10px;
-    padding: 10px;
-  }
-}
-@media(min-width: 768px) and (max-width: 883px){
-  .conteudo h1{
     font-size: 1.5rem;
   }
-  .conteudo p {
-    text-align: left;
+  .vantagens-item{
+    gap: 10px 10px;
+    padding: 10px;
   }
-  p{
-    font-size: 1rem;
+  .vantagens-item img{
+    width: 30px;
   }
-  .conteudo .subtitulo{
-    font-size: 3rem;
-    text-align: center;
-  }
-  .introducao{
-    justify-items: center;
-  }
-  .menu li{
-    margin: 0 .3rem;
+  .vantagens-item h3{
+    font-size: 1.5rem;
   }
 }
